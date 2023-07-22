@@ -1,0 +1,169 @@
+header{
+    width: 100%;
+    height: 100%;
+  position: fixed;
+    z-index: 1;  
+}
+
+.vsrLogo{
+    width: 30%;
+    height: 70px;
+}
+
+
+.icon-heart-empty{
+    font-size: 10em;
+    color: #046f81;
+}
+
+  .centered {
+    position: absolute;
+    top: 52%;
+    left: 42%;
+    transform: translate(-10%, -10%);
+    font-size: 39px;
+    font-weight: bold;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .coupleHeader{
+    width: 100%;
+    height: 90%;
+    padding-top: 8em;
+  }
+  .animate-charcter
+  {
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #0752b4 33%,
+      red 77%,
+      #15e642 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 100% center;
+    }
+  }
+  .couple{
+    text-align: center;
+    background-color: rgb(252, 242, 230);
+    padding-bottom: 2em;
+    border-radius: 30px;
+    
+    
+  }
+  .coupleMale{
+    text-align: center;
+    padding-top: 1em;
+    background-color: #046f81;
+    width: 100%;
+  }
+  .coupleFemale{
+    background-color: #0752b4;
+    margin-top: 3em;
+    padding-top: 1em;
+  }
+  .couplesTitle{
+    font-size: 50px;
+    color: #0752b4;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .Img{
+    width: 150px;
+    border-radius: 100%;
+    float: left;
+    
+
+  }
+  .para{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .new1{
+    border: 1px solid red;
+   margin-top: 5em;
+    width: 100%;
+  }
+  .galleryTitle{
+    font-size: 50px;
+    color: #0752b4;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+  }
+  .galleryimg{
+    
+    height: 600px;
+    text-align: center;
+  }
+ .detailsTitle{
+    font-size: 50px;
+    color: #0752b4;
+    padding-bottom: 30px;
+    margin-top: 1em;
+    text-align: center;
+ }
+ .Details{
+    text-align: center;
+    background-color: rgb(252, 242, 230);
+    border-radius: 30px;
+    
+    
+ }
+ .wishesTitle{
+    font-size: 50px;
+    color: #0752b4;
+    padding-bottom: 30px;
+    margin-top: 1em;
+    text-align: center;
+
+ }
+ .wishesBox{
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 20px;
+ }
+ form{
+    padding: 30px;
+
+ }
+footer{
+    text-align: center;
+    margin-top: 2em;
+    background-color: #000;
+    color: #fff;
+    padding-top: 1em;
+}
+.dateCount{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-bottom: 6em;
+  }
+  button{
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
